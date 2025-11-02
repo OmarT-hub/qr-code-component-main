@@ -60,6 +60,7 @@ p:nth-of-type(2) {
     font-weight: 400;
     font-size: smaller;
     text-align: center;
+    padding-left: 11px;
 }
 
 .attribution {
@@ -72,7 +73,7 @@ p:nth-of-type(2) {
 }
 
 @media (max-width:768px) {
-    .container{
+    .container {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
